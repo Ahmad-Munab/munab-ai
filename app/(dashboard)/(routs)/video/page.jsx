@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const VideoPage = () => {
-  return (
-    <div>VideoPage</div>
-  )
-}
+    return (
+        <div className="text-center text-5xl p-10 font-semibold text-muted-foreground">
+            In development...
+        </div>
+    );
+};
 
-export default VideoPage
+export default VideoPage;

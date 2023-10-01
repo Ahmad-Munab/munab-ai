@@ -2,7 +2,7 @@ import React from 'react'
 
 const ImagePage = () => {
   return (
-    <div>ImagePage</div>
+    <div className='text-center text-5xl p-10 font-semibold text-muted-foreground'>In development...</div>
   )
 }
 

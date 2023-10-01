@@ -16,7 +16,7 @@ const font = Montserrat({
 const LandingNavabr = () => {
   const { isSignedIn } = useAuth();
   return (
-    <nav className="p-4 bg-transparent flex items-center justify-between">
+    <nav className="p-4 bg-transparent flex w-full items-center justify-between mx-auto max-w-screen-xl">
       <Link href="/" className="flex items-center gap-3">
         <div className="relative w-16 h-8">
           <Image fill alt="Logo" src="/logo-new.png" />
